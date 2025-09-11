@@ -107,9 +107,7 @@ CDKToolkit: creating CloudFormation changeset...
 
 - _GreengrassFleetprovisioningResourceStack_
   - FleetProvisioning に必要なクラウドリソース（ProvisioningTemplate や IoTPolicy など）を作成します。
-- _GreengrassFleetProvisioningInstallerBuildStack_
   - FleetProvisioning を使用してインストールを実行する GreegrassInstaller を作成します。
-  - このスタックを実行するには `GreengrassFreetprovisioningResourceStack` を事前に作成しておく必要があります。
 - _GreengrassPrivateNetworkStack_
   - 閉域ネットワーク環境で Greengrass を利用するためのリソース（PrivateLink など）を作成します。
 

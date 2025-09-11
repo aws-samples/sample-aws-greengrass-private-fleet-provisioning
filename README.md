@@ -107,9 +107,7 @@ CDKToolkit: creating CloudFormation changeset...
 
 - _GreengrassFleetprovisioningResourceStack_
   - Create the necessary cloud resources (e.g. ProvisioningTemplate, IoTPolicy) for FleetProvisioning.
-- _GreengrassFleetProvisioningInstallerBuildStack_
   - Create a GreegrassInstaller that uses FleetProvisioning to perform the installation.
-  - The `GreengrassFreetprovisioningResourceStack` must be pre-created to run this stack
 - _GreengrassPrivateNetworkStack_
   - Create resources (e.g. PrivateLink) to make Greengrass available in private network environments
 
